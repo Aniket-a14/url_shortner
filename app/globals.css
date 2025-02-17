@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: rgb(250,246,239);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --foreground: rgb(250,246,239);
+  }
+}
+
